@@ -22,7 +22,7 @@ spring.boot.admin.notify.mail.to: 504048698@qq.com
 #发件邮箱
 spring.boot.admin.notify.mail.from: 504048698@qq.com
 
-myconfig: "OKKKKKK"
+myConfig: "OKKKKKK"
 
 
 
