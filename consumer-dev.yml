@@ -1,10 +1,4 @@
-spring:
-  application:
-    name: cloud-admin
-  security:
-    user:
-      name: root
-      password: root
+
   # 邮件设置
   mail:
     host: smtp.qq.com
@@ -22,7 +16,17 @@ spring.boot.admin.notify.mail.to: 504048698@qq.com
 #发件邮箱
 spring.boot.admin.notify.mail.from: 504048698@qq.com
 
-myConfig: "OKKKKKK"
+myConfig: "成功鸭"
+
+spring:
+  #zipkin
+  zipkin:
+    base-url: http://localhost:9411/
+    #设置采样深度为1
+  sleuth:
+    sampler:
+      rate: 1
+
 
 
 
