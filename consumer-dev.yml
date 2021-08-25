@@ -3,7 +3,7 @@
   mail:
     host: smtp.qq.com
     username: 504048698
-    password: azfnsurdejmkcbdi
+    password: az
     properties:
       mail:
         smpt:
